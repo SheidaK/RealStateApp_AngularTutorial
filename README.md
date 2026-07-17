@@ -1,0 +1,1 @@
+This project was developed by following the tutorial https://angular.dev/tutorials/first-app 
