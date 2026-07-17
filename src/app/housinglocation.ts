@@ -7,4 +7,5 @@ export interface Housinglocation {
     availableUnits: number;
     wifi: boolean;
     laundry: boolean;
+    price:number;
 }

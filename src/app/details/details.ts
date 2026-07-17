@@ -24,6 +24,7 @@ import {FormControl, FormGroup, ReactiveFormsModule} from '@angular/forms';
           <li>Units available: {{ housingLocation?.availableUnits }}</li>
           <li>Does this location have wifi: {{ housingLocation?.wifi }}</li>
           <li>Does this location have laundry: {{ housingLocation?.laundry }}</li>
+          <li>Price: $ {{ housingLocation?.price }}</li>
         </ul>
       </section>
       <section class="listing-apply">
@@ -35,6 +36,8 @@ import {FormControl, FormGroup, ReactiveFormsModule} from '@angular/forms';
           <input id="last-name" type="text" formControlName="lastName" />
           <label for="email">Email</label>
           <input id="email" type="email" formControlName="email" />
+          <label for="phone">Phone Number</label>
+          <input id="phone" type="number" formControlName="phone" />
           <button type="submit" class="primary">Apply now</button>
         </form>
       </section>
