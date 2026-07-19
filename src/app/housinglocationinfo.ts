@@ -5,8 +5,8 @@ export interface HousingLocationInfo {
     state: string;
     photo: string;
     availableUnits: number;
-    wifi: boolean;
-    laundry: boolean;
+    gym: boolean;
+    pool: boolean;
     price:number;
 
 }

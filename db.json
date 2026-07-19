@@ -7,8 +7,8 @@
       "state": "IL",
       "photo": "https://angular.dev/assets/images/tutorials/common/bernard-hermant-CLKGGwIBTaY-unsplash.jpg",
       "availableUnits": 4,
-      "wifi": true,
-      "laundry": true,
+      "gym": true,
+      "pool": true,
       "price": 400000
     },
     {
@@ -18,9 +18,9 @@
       "state": "CA",
       "photo": "https://angular.dev/assets/images/tutorials/common/brandon-griggs-wR11KBaB86U-unsplash.jpg",
       "availableUnits": 0,
-      "wifi": false,
-      "laundry": true,
-      "price": 250000
+      "gym": false,
+      "pool": true,
+      "price": 25000
 
     },
     {
@@ -30,9 +30,9 @@
       "state": "AK",
       "photo": "https://angular.dev/assets/images/tutorials/common/i-do-nothing-but-love-lAyXdl1-Wmc-unsplash.jpg",
       "availableUnits": 1,
-      "wifi": false,
-      "laundry": false,
-      "price": 1000000
+      "gym": false,
+      "pool": false,
+      "price": 100000
 
     },
     {
@@ -42,8 +42,8 @@
       "state": "IL",
       "photo": "https://angular.dev/assets/images/tutorials/common/ian-macdonald-W8z6aiwfi1E-unsplash.jpg",
       "availableUnits": 1,
-      "wifi": true,
-      "laundry": false,
+      "gym": true,
+      "pool": false,
       "price": 700000
     },
     {
@@ -53,8 +53,8 @@
       "state": "IN",
       "photo": "https://angular.dev/assets/images/tutorials/common/krzysztof-hepner-978RAXoXnH4-unsplash.jpg",
       "availableUnits": 1,
-      "wifi": true,
-      "laundry": false,
+      "gym": true,
+      "pool": false,
       "price": 900000
     },
     {
@@ -64,8 +64,8 @@
       "state": "CA",
       "photo": "https://angular.dev/assets/images/tutorials/common/r-architecture-JvQ0Q5IkeMM-unsplash.jpg",
       "availableUnits": 2,
-      "wifi": true,
-      "laundry": true,
+      "gym": true,
+      "pool": true,
       "price": 1500000
     },
     {
@@ -75,8 +75,8 @@
       "state": "CA",
       "photo": "https://angular.dev/assets/images/tutorials/common/phil-hearing-IYfp2Ixe9nM-unsplash.jpg",
       "availableUnits": 5,
-      "wifi": true,
-      "laundry": true,
+      "gym": true,
+      "pool": true,
       "price": 900000
     },
     {
@@ -86,8 +86,8 @@
       "state": "CA",
       "photo": "https://angular.dev/assets/images/tutorials/common/r-architecture-GGupkreKwxA-unsplash.jpg",
       "availableUnits": 2,
-      "wifi": true,
-      "laundry": true,
+      "gym": true,
+      "pool": true,
       "price": 1200000
     },
     {
@@ -97,8 +97,8 @@
       "state": "CA",
       "photo": "https://angular.dev/assets/images/tutorials/common/saru-robert-9rP3mxf8qWI-unsplash.jpg",
       "availableUnits": 10,
-      "wifi": false,
-      "laundry": false,
+      "gym": false,
+      "pool": false,
       "price": 500000
     },
     {
@@ -108,8 +108,8 @@
       "state": "OR",
       "photo": "https://angular.dev/assets/images/tutorials/common/webaliser-_TPTXZd9mOo-unsplash.jpg",
       "availableUnits": 6,
-      "wifi": true,
-      "laundry": true,
+      "gym": true,
+      "pool": true,
       "price": 2000000
     }
   ]

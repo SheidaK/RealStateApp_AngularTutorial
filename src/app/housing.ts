@@ -15,6 +15,7 @@ export class HousingService {
     return locationJson ?? {};
 
   }
+  
   submitApplication(firstName: string, lastName: string, email: string): void {
   console.log(
     `Homes application received: firstName: ${firstName}, lastName: ${lastName}, email: ${email}.`

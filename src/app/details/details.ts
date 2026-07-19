@@ -22,8 +22,8 @@ import {FormControl, FormGroup, ReactiveFormsModule} from '@angular/forms';
         <h2 class="section-heading">About this housing location</h2>
         <ul>
           <li>Units available: {{ housingLocation?.availableUnits }}</li>
-          <li>Does this location have wifi: {{ housingLocation?.wifi }}</li>
-          <li>Does this location have laundry: {{ housingLocation?.laundry }}</li>
+          <li>Does this location have gym: {{ housingLocation?.gym }}</li>
+          <li>Does this location have pool: {{ housingLocation?.pool }}</li>
           <li>Price: $ {{ housingLocation?.price }}</li>
         </ul>
       </section>
@@ -37,10 +37,13 @@ import {FormControl, FormGroup, ReactiveFormsModule} from '@angular/forms';
           <label for="email">Email</label>
           <input id="email" type="email" formControlName="email" />
           <label for="phone">Phone Number</label>
-          <input id="phone" type="number" formControlName="phone" />
+          <input id="phone" type="number" />
           <button type="submit" class="primary">Apply now</button>
         </form>
       </section>
+      <!-- <div class="appointment">
+        <button type="submit" class="primary">Book a visit</button>
+      </div> -->
     </article>
   `,
   styleUrls: ['./details.css'],
@@ -72,5 +75,6 @@ export class Details {
           this.applyForm.value.lastName ?? '',
           this.applyForm.value.email ?? '',
         );
+        alert("Application Submitted. We will reach out to you soon!");
       }
      }
